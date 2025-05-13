@@ -88,11 +88,11 @@ const Hero = () => {
             <div className="relative flex flex-col justify-center w-max">
               <div className={`w-full`}>
                 <Image
-                  src="/images/hero.png"
+                  src="/images/my-hero.jpg"
                   alt="hero image"
                   width={400}
                   height={400}
-                  className="absolute w-full h-full bottom-3 right-4 md:bottom-5 md:right-6 lg:bottom-10 lg:right-12"
+                  className="absolute w-full h-full bottom-3 object-cover right-4 md:bottom-5 md:right-6 lg:bottom-10 lg:right-12"
                   draggable={false}
                   priority
                 />

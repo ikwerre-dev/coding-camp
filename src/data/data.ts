@@ -34,7 +34,7 @@ export const projects = [
 
 export const userData = {
   username: "David",
-  github: "https://www.github.com/ikwerre-dev",
+  github: "https://github.com/ukonuzoidx",
   showEmoji: true,
   showExclamation: true
 };
