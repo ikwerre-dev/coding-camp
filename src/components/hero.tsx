@@ -1,6 +1,6 @@
 'use client'
 import { motion } from "framer-motion";
-import { FbIcon, IgIcon, InIcon, TwIcon } from "./svgs";
+import { FbIcon, IgIcon, InIcon, TikTokIcon, TwIcon } from "./svgs";
 import Image from 'next/image';
 import { heroData } from "../data/data";
 
@@ -30,19 +30,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="mt-[35px] md:mt-[65px] flex justify-start items-center gap-[26px] md:gap-[40px]">
-              <motion.a
-                href={heroData.socialLinks.facebook}
-                target="_blank"
-                rel="noreferrer"
-                whileTap={{ scale: 1.1 }}
-                whileHover={{ scale: 0.99 }}
-                className="h-auto w-auto"
-              >
-                <FbIcon
-                  fill="#6f1cd7"
-                  className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-white`}
-                />
-              </motion.a>
+
               <motion.a
                 href={heroData.socialLinks.twitter}
                 target="_blank"
@@ -52,6 +40,19 @@ const Hero = () => {
                 className={`h-auto w-auto`}
               >
                 <TwIcon
+                  fill={`#6f1cd7`}
+                  className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-white`}
+                />
+              </motion.a>
+              <motion.a
+                href={heroData.socialLinks.tiktok}
+                target="_blank"
+                rel="noreferrer"
+                whileTap={{ scale: 1.1 }}
+                whileHover={{ scale: 0.99 }}
+                className={`h-auto w-auto`}
+              >
+                <TikTokIcon
                   fill={`#6f1cd7`}
                   className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-white`}
                 />

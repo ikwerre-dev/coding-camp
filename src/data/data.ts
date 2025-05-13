@@ -48,10 +48,10 @@ export const heroData = {
     text2: "My passion for coding as well as the very tangible results I command has lead me into challenging myself with building Top company websites and applications."
   },
   socialLinks: {
-    facebook: "https://www.facebook.com/David.Ukonu.1",
-    twitter: "https://x.com/David_can_code",
-    instagram: "https://www.instagram.com/UkonuDavid",
-    linkedin: "https://ng.linkedin.com/in/UkonuDavidamadi"
+    tiktok: "https://www.tiktok.com/@coding_camp?_t=ZM-8wJaJkIWgLd&_r=1",
+    instagram: "https://www.instagram.com/ukonu_zoidx?igsh=NWFjNzZuYjYwdDNo",
+    linkedin: "https://www.linkedin.com/in/david-ukonu-11579216a/",
+    twitter: "https://x.com/code_hive02"
   }
 };
 
@@ -266,7 +266,7 @@ export const experiences = [
 ];
 
 export const contactData = {
-  email: "davidukonu@outlook.com",
+  email: "ukonuzoidx@gmail.com",
   phone: "+44 7721581592",
   locations: {
     morning: "metaverse!⚡",

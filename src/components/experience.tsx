@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { experiences } from "../data/data";
 import { useState } from "react";
 
-const resumeUrl = '/pdf/resume.pdf';
+const resumeUrl = '/pdf/resume.docx';
 
 const Experience = () => {
   const [expandedExperiences, setExpandedExperiences] = useState<number[]>([]);
@@ -112,7 +112,7 @@ const Experience = () => {
           >
             <Resume
               pdfUrl={resumeUrl}
-              fileName="DavidResume.pdf"
+              fileName="DavidResume.docx"
               buttonText="Download Resume"
             />
           </motion.div>

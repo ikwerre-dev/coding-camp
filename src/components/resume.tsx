@@ -18,7 +18,7 @@ const Resume = ({ pdfUrl, fileName, buttonText }: ResumeProps) => {
       const link = document.createElement("a");
       const blobUrl = URL.createObjectURL(blob);
       link.href = blobUrl;
-      link.download = fileName || "download.pdf";
+      link.download = fileName || "download.docx";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -29,7 +29,7 @@ const Resume = ({ pdfUrl, fileName, buttonText }: ResumeProps) => {
       console.error("Error downloading PDF:", errorMessage);
     }
   };
-  
+
   return (
     <div className="transition-all duration-300 active:scale-[0.96] max-w-[200px] mx-auto md:mx-0 flex justify-center lg:flex lg:justify-start">
       <span

@@ -1,8 +1,10 @@
 "use client"
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Copyright, FbIcon, IgIcon, InIcon, TwIcon } from "./svgs";
+import { Copyright, FbIcon, IgIcon, InIcon } from "./svgs";
 import { heroData } from "../data/data";
+import { TikTokIcon } from "./svgs";
+import { TwitterIcon } from "lucide-react";
 
 const Footer = () => {
   const [time, setTime] = useState<string>('');
@@ -53,19 +55,6 @@ const Footer = () => {
         </div>
         <div className="mt-[10px] md:mt-[65px] flex justify-start items-center gap-[20px] md:gap-[40px]">
           <motion.a
-            href={heroData.socialLinks.facebook}
-            target="_blank"
-            rel="noreferrer"
-            whileTap={{ scale: 1.1 }}
-            whileHover={{ scale: 0.99 }}
-            className="h-auto w-auto"
-          >
-            <FbIcon
-              fill={`#FFFFFF99`}
-              className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-gray-500`}
-            />
-          </motion.a>
-          <motion.a
             href={heroData.socialLinks.twitter}
             target="_blank"
             rel="noreferrer"
@@ -73,7 +62,20 @@ const Footer = () => {
             whileHover={{ scale: 0.99 }}
             className="h-auto w-auto"
           >
-            <TwIcon
+            <TwitterIcon
+              fill={`#FFFFFF99`}
+              className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-gray-500`}
+            />
+          </motion.a>
+          <motion.a
+            href={heroData.socialLinks.tiktok}
+            target="_blank"
+            rel="noreferrer"
+            whileTap={{ scale: 1.1 }}
+            whileHover={{ scale: 0.99 }}
+            className="h-auto w-auto"
+          >
+            <TikTokIcon
               fill="#FFFFFF99"
               className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-gray-500`}
             />
