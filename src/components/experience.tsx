@@ -46,7 +46,7 @@ const Experience = () => {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
+                transition={{ duration: 0.6, delay: index * 0.02 }}
                 className="relative pl-6 md:pl-24"
               >
                 <motion.div

@@ -266,8 +266,8 @@ export const experiences = [
 ];
 
 export const contactData = {
-  email: "codewithDavid@gmail.com",
-  phone: "+2349163169949",
+  email: "davidukonu@outlook.com",
+  phone: "+44 7721581592",
   locations: {
     morning: "metaverse!⚡",
     afternoon: "localhost:3000",
