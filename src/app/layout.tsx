@@ -10,8 +10,8 @@ const geistSans = Poppins({
 
 export const metadata: Metadata = {
   title: 'DAVID UKONU | Software Engineer',
-  description: 'Creative Software Engineer with 5+ years of experience, specializing in web development, app development, robotics, cloud computing, and game development. Building scalable products with great user experiences.',
-  keywords: ['Software Engineer', 'Web Development', 'App Development', 'Robotics', 'Cloud Computing', 'Game Development', 'Full Stack Developer', 'DAVID UKONU'],
+  description: 'Creative Software Engineer with 5+ years of experience, specializing in web development, app development,  cloud computing, and game development. Building scalable products with great user experiences.',
+  keywords: ['Software Engineer', 'Web Development', 'App Development', 'Cloud Computing', 'Game Development', 'Full Stack Developer', 'DAVID UKONU'],
   authors: [{ name: 'DAVID UKONU' }],
   creator: 'DAVID UKONU',
   publisher: 'DAVID UKONU',

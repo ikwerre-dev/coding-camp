@@ -78,27 +78,7 @@ export const services = [
     icon: Smartphone,
     category: "Mobile"
   },
-  {
-    id: 4,
-    title: "ROBOTICS ENGINEERING",
-    description: "Creating and programming robotic systems, specializing in automation and control systems as a resource personnel for Airobot in Bonny Island.",
-    icon: BotIcon,
-    category: "Engineering"
-  },
-  {
-    id: 5,
-    title: "UI DESIGN",
-    description: "Crafting intuitive and visually appealing user interfaces with a focus on user-centered design principles and modern design trends.",
-    icon: Palette,
-    category: "Design"
-  },
-  {
-    id: 6,
-    title: "CLOUD COMPUTING",
-    description: "Implementing and managing cloud solutions, leveraging services for scalable and efficient application deployment and infrastructure management.",
-    icon: Cloud,
-    category: "Infrastructure"
-  }
+ 
 ];
 
 
