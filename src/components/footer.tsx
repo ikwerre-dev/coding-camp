@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Copyright, FbIcon, IgIcon, InIcon } from "./svgs";
+import { Copyright,  IgIcon, InIcon } from "./svgs";
 import { heroData } from "../data/data";
 import { TikTokIcon } from "./svgs";
 import { TwitterIcon } from "lucide-react";

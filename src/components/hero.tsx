@@ -1,6 +1,6 @@
 'use client'
 import { motion } from "framer-motion";
-import { FbIcon, IgIcon, InIcon, TikTokIcon, TwIcon } from "./svgs";
+import {  IgIcon, InIcon, TikTokIcon, TwIcon } from "./svgs";
 import Image from 'next/image';
 import { heroData } from "../data/data";
 
