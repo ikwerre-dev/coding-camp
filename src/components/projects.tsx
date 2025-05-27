@@ -7,7 +7,7 @@ import { projects } from "../data/data";
 const Projects = () => {
     return (
         <section className="relative py-24 px-4 md:px-8 lg:px-16 overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-[#130b1c] to-transparent opacity-40" />
+            <div className="absolute inset-0 bg-[#130b1c] opacity-30" />
 
             <div className="max-w-7xl mx-auto relative">
                 <motion.div
