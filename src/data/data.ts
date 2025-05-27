@@ -1,8 +1,5 @@
 import {
   Smartphone,
-  BotIcon,
-  Palette,
-  Cloud,
   Code,
   Server
 } from 'lucide-react';
